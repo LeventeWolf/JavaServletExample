@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    margin: 0 auto;
+    padding: 1em;
+    width: 50%;
+    min-height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1em;
+
+    border: 1px solid rgba(128, 128, 128, 0.49);
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.53);
+}
+
+table {
+    box-shadow: 0 0 2px 1px grey;
+}
+
+table thead {
+    background-color: #cbc9c9;
+}
+
+table td {
+    padding: 0.5em;
+}
+
+button {
+    outline: none;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bold;
+    align-self: start;
+    margin-top: auto;
+}
+
+.new-form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1em;
+}
